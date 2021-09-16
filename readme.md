@@ -21,14 +21,32 @@ Estudo git: Introdução e comandos básicos
 	//Inicia um repositorio vazio
 		git init
 
-	//Verifica o estado atual dos commits e arquivos que ainda não são gerenciados pelo git
+	//Verifica o estado atual dos commits e arquivos que ainda não são "observados" pelo git
 		git status
 	
-	//Adiciona os arquivos para ser gerenciados pelo git
+	//Adiciona os arquivos para ser "observados" pelo git
 		git add nomeDoArquivo.txt
 		
-		//Adiciona todos os arquivos para ser gerenciados pelo git
+		//Adiciona todos os arquivos para ser "observados" pelo git
 			git add . 
+
+		//Mostra o histórico de commits
+			git log
+
+			//Aqui mostra apenas os setes primeiros números que são necessarios para identificação do commit
+				git log  --oneline
+
+			//Nodo de commits
+			git log --graph
+
+			//Nodo de commits simplificado
+			git log --oneline --graph
+	
+			//Adicione o os arquivos para serem "observados(Container)" pelo git e adiciona ao repositorio, ou seja onde ele de fato será gerenciado pelo git
+
+			git commit -am "Creation file teste"
+		
+
 
 
 
