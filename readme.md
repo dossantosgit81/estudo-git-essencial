@@ -65,7 +65,7 @@ Estudo git: Introdução e comandos básicos
 
 			git commit -am "Creation file teste"
 
-			//Rastreando commit para uma nova branch
+			//Rastreando commit de uma versão anterior, para uma nova branch
 
 			git checkout -b 3421fd1
 
