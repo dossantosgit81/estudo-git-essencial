@@ -70,7 +70,13 @@ Estudo git: Introdução e comandos básicos
 			git checkout -b 3421fd1
 
 
-		
+			//Removendo comitt
+
+				//Deleta o commit e todas as modificações
+			git reset --hard "hash do commit"
+
+				//Desfaz o commit, e volta para a versão do commit do hash
+			git reset --soft "hash do commit"
 
 
 
