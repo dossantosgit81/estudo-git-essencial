@@ -78,6 +78,11 @@ Estudo git: Introdução e comandos básicos
 				//Desfaz o commit, e volta para a versão do commit do hash
 			git reset --soft "hash do commit"
 
+			//Criando uma branch
+			//A branch teste, herda todos os commits da branch master
+
+			git checkout -b teste
+
 
 
 
