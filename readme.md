@@ -60,6 +60,8 @@ Estudo git: Introdução e comandos básicos
 			//Nodo de commits simplificado
 
 			git log --oneline --graph
+			git log --oneline --graph --all
+			git log --graph --all
 	
 			//Adicione o os arquivos para serem "observados(Container)" pelo git e adiciona ao repositorio, ou seja onde ele de fato será gerenciado pelo git
 
